@@ -1,0 +1,86 @@
+@use "../abstract/color.scss" as *;
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 5rem;
+  padding-top: 3rem;
+}
+
+.icon-pulse {
+  margin-top: 1rem;
+}
+
+.image-proj {
+  width: 100%;
+  height: 100%;
+
+  @media (max-width: 400px) {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.container-grid-text {
+  max-width: 50%;
+  padding: 2rem;
+  @media (max-width: 400px) {
+    max-width: 100%;
+    padding: 1rem;
+  }
+}
+
+//spacing
+.padding-title {
+  padding-bottom: 0.5rem;
+}
+
+.margin-right-icon {
+  margin-right: 0.5rem;
+}
+
+.icon-wrapper {
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid white;
+  font-size: 1.8rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  box-shadow: 0px 0px 8px -1px rgba(0, 0, 0, 0.666);
+}
+
+.container-image-proj {
+  padding: 2rem;
+}
+
+.link {
+  position: absolute;
+  top: 70%;
+  left: 90%;
+  background: $main;
+  color: $tertiary;
+  width: clamp(3rem, 2vw, 4.5rem);
+  height: clamp(3rem, 2vw, 4.5rem);
+  border-radius: 50%;
+  box-shadow: 0px 0px 8px -1px rgba(0, 0, 0, 0.666);
+  text-align: center;
+  line-height: 6.25rem;
+  vertical-align: middle;
+  padding: 0.8rem;
+  @media (max-width: 800px) {
+    top: 70%;
+    left: 40%;
+  }
+  @media (max-width: 500px) {
+    top: 80%;
+    left: 40%;
+  }
+  @media (max-width: 400px) {
+    top: 86%;
+    left: 75%;
+  }
+}
+
+.iconContainer {
+  padding-top: 1rem;
+}

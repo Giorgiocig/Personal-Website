@@ -1,0 +1,27 @@
+@use "../abstract/color.scss" as *;
+
+.margin-top {
+  margin-top: 10rem;
+}
+
+.container-footer-text {
+  width: 60%;
+}
+
+.padding-bottom {
+  padding-bottom: 0.5rem;
+}
+
+.padding-footer-container {
+  padding: 2rem 0;
+}
+
+.footer-icon {
+  margin-bottom: 0.75rem;
+}
+
+//copyright
+.copyright {
+  background-color: $secondary;
+  padding: 2rem 0;
+}

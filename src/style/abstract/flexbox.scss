@@ -1,0 +1,59 @@
+/*FLEX PROPS*/
+.row {
+  display: flex;
+}
+
+.row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-content--sb {
+  justify-content: space-between;
+}
+
+.justify-content--center {
+  justify-content: center;
+}
+
+.justify-content--end {
+  justify-content: flex-end;
+}
+
+.align-items--center {
+  align-items: center;
+}
+
+.align-items--flexStart {
+  align-items: flex-start;
+}
+
+//flex gap
+.flex-gap {
+  gap: 4rem;
+  @media (max-width: 800px) {
+    gap: 0;
+  }
+}
+
+.flex-gap2 {
+  gap: 2rem;
+}
+
+.flex-gap1 {
+  gap: 1rem;
+}
+
+//flex prop
+.col50 {
+  flex: 1;
+}
+
+.col75 {
+  flex: 2;
+}

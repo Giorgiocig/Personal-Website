@@ -1,0 +1,86 @@
+$font-size-big: 4rem; //64px
+$font-size-medium: 3rem; //48px
+$font-size-normal: 2.5rem; //40px
+$font-size-small: 1.5rem; //24px
+$font-size-extraSmall: 0.938rem; //15px
+$font-size-icon: 0.75rem; //12px
+
+a {
+  text-decoration: none;
+}
+
+//RALEWAY
+.text-font40 {
+  font-size: clamp($font-size-small, 3vw, $font-size-normal);
+}
+
+.text-font40-BOLD {
+  font-size: clamp($font-size-small, 3vw, $font-size-normal);
+  font-weight: 700;
+}
+
+.text-font24 {
+  font-size: clamp($font-size-extraSmall, 1vw, $font-size-small);
+}
+
+.text-font24-BOLD {
+  font-size: clamp($font-size-extraSmall, 2vw, $font-size-small);
+  font-weight: 700;
+}
+
+.text-font15 {
+  font-size: clamp($font-size-icon, 2vw, $font-size-extraSmall);
+}
+
+.text-font15-BOLD {
+  font-size: clamp($font-size-icon, 2vw, $font-size-extraSmall);
+  font-weight: 700;
+}
+
+.text-font15 {
+  font-size: $font-size-extraSmall;
+}
+
+.text-font12 {
+  font-size: $font-size-icon;
+}
+
+//ROBOTO
+.text-font64-BOLD {
+  font-size: clamp($font-size-small, 5vw, $font-size-big);
+  font-weight: 700;
+}
+
+.text-font48-BOLD {
+  font-size: clamp($font-size-small, 1.5vw, $font-size-medium);
+  font-weight: 700;
+}
+
+//interlinea
+.line-height35 {
+  line-height: 2.18rem;
+}
+
+.line-height-smallText {
+  line-height: 1.5rem;
+}
+
+//icon
+.font-size35 {
+  font-size: 2.18rem;
+}
+
+//letter spacing
+.text-space {
+  letter-spacing: 0.125rem;
+}
+
+.text-space-smallText {
+  letter-spacing: 0.1rem;
+}
+
+.text-space-resp {
+  @media (max-width: 400px) {
+    letter-spacing: 0.2rem;
+  }
+}

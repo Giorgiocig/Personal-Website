@@ -1,0 +1,10 @@
+@use "../style/abstract/color.scss";
+@use "../style/typography/typography.scss";
+@use "../style/typography/typo.scss";
+@use "../style/abstract/flexbox.scss";
+
+//main
+@use "../style/main.scss";
+
+//buttons
+@use "../style/pageComponents/buttons.scss";

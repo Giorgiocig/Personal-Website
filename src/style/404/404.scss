@@ -1,0 +1,20 @@
+@use "../abstract/color.scss";
+@use "../abstract/typo.scss";
+
+$font-main: "Roboto", serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: $font-main;
+}

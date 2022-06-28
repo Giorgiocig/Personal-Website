@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;700&display=swap");
+
+//font weight
+$font-light: 300;
+$font-normal: 400;
+$font-bold: 700;
+$font-black: 900;
+
+//font-family
+$font-main: "Roboto", serif;
+$font-secondary: "Raleway", sans-serif;
+
+.font-main {
+  font-family: $font-main;
+}
+
+.font-secondary {
+  font-family: $font-secondary;
+}

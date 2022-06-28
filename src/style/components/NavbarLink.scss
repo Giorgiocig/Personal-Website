@@ -1,0 +1,21 @@
+@use "../abstract/color.scss" as *;
+
+.navbar-link {
+  position: relative;
+  &:hover {
+    color: black;
+    transition: 150ms ease-in-out;
+  }
+  &::before {
+    content: "";
+    height: 5px;
+    background: black;
+    display: block;
+    position: absolute;
+    top: -1em;
+    left: 0;
+    right: 0;
+    transform: scale(0, 1);
+    transition: transform ease-in-out 250ms;
+  }
+}

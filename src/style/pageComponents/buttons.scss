@@ -1,0 +1,86 @@
+@use "../abstract/color.scss" as *;
+
+.btn {
+  color: $tertiary;
+  background-color: $main;
+  padding: 0.75em 2em;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 250ms ease-in-out;
+  display: inline-block;
+  border-radius: 10px;
+  border: solid 0.5px $main;
+
+  &:hover {
+    transform: translateY(-6px);
+    background-color: $tertiary;
+    color: $main;
+    border: solid 0.5px $main;
+  }
+
+  @media (max-width: 800px) {
+    padding: 1rem 3rem;
+  }
+  @media (max-width: 400px) {
+    display: block;
+    max-width: 80%;
+    text-align: center;
+  }
+}
+
+.btn-about {
+  color: $tertiary;
+  background-color: $main;
+  padding: 0.5em 2em;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 250ms ease-in-out;
+  display: inline-block;
+  border-radius: 10px;
+  border: solid 0.5px $main;
+
+  &:hover {
+    transform: translateY(-6px);
+    background-color: $tertiary;
+    color: $main;
+    border: solid 0.5px $main;
+  }
+
+  @media (max-width: 800px) {
+    padding: 1rem 3rem;
+  }
+  @media (max-width: 400px) {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    padding: 1rem 3rem;
+  }
+}
+
+.btn-contacts {
+  color: $tertiary;
+  background-color: $main;
+  padding: 0.5em 2em;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 250ms ease-in-out;
+  display: inline-block;
+  border-radius: 10px;
+  border: solid 0.5px $main;
+
+  &:hover {
+    transform: translateY(0px);
+    background-color: $tertiary;
+    color: $main;
+    border: solid 0.5px $main;
+  }
+  @media (max-width: 400px) {
+    padding: 1rem 3rem;
+  }
+}
+
+.margin-top-resp {
+  @media (max-width: 400px) {
+    margin-top: 2rem;
+  }
+}
